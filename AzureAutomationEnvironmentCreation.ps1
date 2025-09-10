@@ -1,4 +1,4 @@
-﻿#---------------DEFINING VARIABLES---------------
+#---------------DEFINING VARIABLES---------------
 $VerbosePreference = 'SilentlyContinue'
 $WarningPreference = 'SilentlyContinue'
 $InformationPreference = 'SilentlyContinue'
@@ -18,8 +18,8 @@ $InstructorVmWordPressTemplatePath = Join-Path $PSScriptRoot "TemplateFiles\VM-I
 $LoadBalancerTemplatePath = Join-Path $PSScriptRoot "TemplateFiles\LoadBalancer.bicep"
 $PublicSSHKeyPath = Join-Path $PSScriptRoot "SSHKeyFolder\CloudLearnSSH-JumpHost.pub"
 $PublicSSHKeyValue = Get-Content -Path $PublicSSHKeyPath -Raw
-$ScriptDiskSSH = "https://raw.githubusercontent.com/KarnerMAN/AzureScripts/refs/heads/main/DiskAndSSHScript.sh"
-$ScriptDiskWordPressWithInjectionSSH = "https://raw.githubusercontent.com/KarnerMAN/AzureScripts/refs/heads/main/DiskAndWordPress.sh"
+$ScriptDiskSSH = "https://raw.githubusercontent.com/KarnerMAN/IRUO-AzureAutomation/refs/heads/main/DiskAndSSHScript.sh"
+$ScriptDiskWordPressWithInjectionSSH = "https://raw.githubusercontent.com/KarnerMAN/IRUO-AzureAutomation/refs/heads/main/DiskAndWordPress.sh"
 
 $NumberOfWordpressVMs = 1
 
